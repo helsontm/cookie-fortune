@@ -15,7 +15,7 @@ const CookFortune =({data})=>{
         <h1>Galletas de la Fortuna</h1>
 
         <div className="conPhrase"> 
-        <p>{data.phrase}</p>
+        <p><q>{data.phrase}</q></p>
         </div>
 <div className="firefly"></div>
 <div className="firefly"></div>

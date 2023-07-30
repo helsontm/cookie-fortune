@@ -33,14 +33,14 @@ flex-direction: column;
 /* contenedro de la frase*/
 .conPhrase{
 
-  background-color: rgba(255, 255, 255, 0.844);
-  width: 600px;
-  height: 120px;
+  background-color: rgba(255, 255, 255, 0.747);
+  width: 650px;
+  height: 130px;
     text-align: center;
     box-shadow: 10px 5px 5px rgba(65, 50, 121, 0.493);
     -moz-border-radius: 0 50% / 0 100%;
     -webkit-border-radius: 0 50% / 0 100%;
-    border-radius: 0 10% / 0 80%;
+    border-radius: 5% 30% / 5% 30%;
   display: flex;
   flex-direction: column;
    align-items: center;
@@ -72,13 +72,12 @@ h5{
 
 /*  Phrase*/
 p{
-
   
   text-align: center;
-  padding-top: 40px;
+  padding-top: 30px;
     padding-bottom: 20px;
   font-weight: bolder;
-
+  width: 450px;
 }
 
 /* Boton*/
@@ -1439,7 +1438,7 @@ box-shadow: 0px 0px 15px 15px white ;
   }
 
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 550px) {
    conPhrase { 
     width: 500px;
     height: 120px
@@ -1450,9 +1449,16 @@ box-shadow: 0px 0px 15px 15px white ;
 
   .conPhrase {
     
-    width: 360px;
+    width: 300px;
     height: 120px;
   }
+
+  p {
+    
+    padding-top: 15px;
+  
+    width: 270px;
+}
  
 }
 
@@ -1467,6 +1473,14 @@ box-shadow: 0px 0px 15px 15px white ;
     width: 350px;
     height: 120px;
     
+}
+
+p{
+  
+  padding-top: 10px;
+   
+    width: 250px;
+
 }
  
  
